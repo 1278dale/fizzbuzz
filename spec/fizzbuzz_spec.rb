@@ -48,6 +48,10 @@ describe Fizzbuzz do
 		it "15 says FizzBuzz" do
 			expect(fizzbuzz.says(15)).to eq "FizzBuzz"
 		end
+
+		it "says a non fizzbuzz number normally" do
+			expect(fizzbuzz.says(4)).to eq 4
+		end
 	
 	end
 
